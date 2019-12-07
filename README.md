@@ -47,12 +47,12 @@ The loss function used in training is calculated as the reward + discount * max_
 
 This method works well for our 10x10 and 100x100 environments with a static goal and only two source tanks, below are the tensor board results for each environment solved respectively. We have not yet determined how solve the 100x100 environment with 4 source tanks (all primary regents required to achieve any colour) and a random volume and colour goal destination tank and does not work with the static goal agents. 
 
-![10x10_tb] (https://raw.githubusercontent.com/jameshiggie/Industrial_control/master/img/tb1.png) - 10x10 static goal results 
+![10x10_tb] (https://raw.githubusercontent.com/jameshiggie/Industrial_control/blob/img/tb1.png) - 10x10 static goal results 
 
 ![100x100_tb] (https://raw.githubusercontent.com/jameshiggie/Industrial_control/master/img/tb2.png) - 100x100 static goal results 
 
 ## Resources and links
-* ![OG_Paper] (https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) - DeepMinds original paper on DQN: Human-level control through deep reinforcement learning
+* !.[OG_Paper] (https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) - DeepMinds original paper on DQN: Human-level control through deep reinforcement learning
 
 * ![RLCode](https://pythonprogramming.net/deep-q-learning-dqn-reinforcement-learning-python-tutorial) - Initial learning material, similar algorithm in Keras, 
 

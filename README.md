@@ -54,9 +54,9 @@ This method works well for our 10x10 and 100x100 environments with a static goal
 ![100x100_tb](https://github.com/jameshiggie/Industrial_control/blob/master/img/tb2.png)
 
 ## Resources and links
-* ![OG_Paper] (https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) - DeepMinds original paper on DQN: Human-level control through deep reinforcement learning
+* ![OG_Paper](https://web.stanford.edu/class/psych209/Readings/MnihEtAlHassibis15NatureControlDeepRL.pdf) - DeepMinds original paper on DQN: Human-level control through deep reinforcement learning
 
-* ![RLCode](https://pythonprogramming.net/deep-q-learning-dqn-reinforcement-learning-python-tutorial) - Initial learning material, similar algorithm in Keras, 
+* ![SentDex DQN Tutorial](https://pythonprogramming.net/deep-q-learning-dqn-reinforcement-learning-python-tutorial) - Initial learning material used from Sentdex and basis of Keras model
 
 
 ## License

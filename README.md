@@ -30,9 +30,9 @@ The environment shown below is a 10x10 or a 100x100 RGB matrix  depicting source
 
 An action is a selection of one source tank to transfer one unit of reagent to the destination tank, therefore the size of the action space is equal to the number of source tanks. The end state is researched when the volume and colour of the destination tank matches the goal destination tank. At first the end state was experimented to be +/- 10% of requirements to effectively explore hyper parameter affects. A negative reward of 1 is given for each addition of reagent to optimise reagent usage. A large negative reward of 300 is given if the destination tank is overfilled. A positive reward of 100 is given at the achievement of the end state, correct volume and colour of mixture within the destination tank. During experimentation the reward function was set to be a positive function of how close the colour was to the goal colour, however it lead to the agent getting stuck in the early stages of training more often than the simpler rewards as previously stated. Below is an example of a run where the agent reached the completion state.
 
-**Environment 10x10 at end point**
+**Environment 10x10 run to end point**
 
-<img src="https://github.com/jameshiggie/Industrial_control/blob/master/img/10x10_end.png" width="400">
+<img src="https://github.com/jameshiggie/Industrial_control/blob/master/img/run.gif" width="400">
 
 
 ---
